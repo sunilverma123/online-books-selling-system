@@ -1,0 +1,281 @@
+<web-app>
+
+		<!-- Admin related Servlets -->
+		
+		<servlet>
+				<servlet-name>AdminLoginServlet</servlet-name>
+				<servlet-class>com.Admin.AdminLoginServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>AdminLoginServlet</servlet-name>
+				<url-pattern>/AdminLoginServlet</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+				<servlet-name>CreateCorpMemServlet</servlet-name>
+				<servlet-class>com.Admin.CreateCorpMemServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>CreateCorpMemServlet</servlet-name>
+				<url-pattern>/CreateCorpMemServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>EditMemServlet</servlet-name>
+				<servlet-class>com.Admin.EditMemServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>EditMemServlet</servlet-name>
+				<url-pattern>/EditMemServlet</url-pattern>
+		</servlet-mapping>
+
+
+		<servlet>
+				<servlet-name>AddBookCatgServlet</servlet-name>
+				<servlet-class>com.Admin.AddBookCatgServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>AddBookCatgServlet</servlet-name>
+				<url-pattern>/AddBookCatgServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>EditBookCatgServlet</servlet-name>
+				<servlet-class>com.Admin.EditBookCatgServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>EditBookCatgServlet</servlet-name>
+				<url-pattern>/EditBookCatgServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>DeleteBookCatgServlet</servlet-name>
+				<servlet-class>com.Admin.DeleteBookCatgServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>DeleteBookCatgServlet</servlet-name>
+				<url-pattern>/DeleteBookCatgServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>AddBookDetailServlet</servlet-name>
+				<servlet-class>com.Admin.AddBookDetailServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>AddBookDetailServlet</servlet-name>
+				<url-pattern>/AddBookDetailServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>DeleteBookDetailServlet</servlet-name>
+				<servlet-class>com.Admin.DeleteBookDetailServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>DeleteBookDetailServlet</servlet-name>
+				<url-pattern>/DeleteBookDetailServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>EditBookDetailServlet</servlet-name>
+				<servlet-class>com.Admin.EditBookDetailServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>EditBookDetailServlet</servlet-name>
+				<url-pattern>/EditBookDetailServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>BookInwardDetailServlet</servlet-name>
+				<servlet-class>com.Admin.BookInwardDetailServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>BookInwardDetailServlet</servlet-name>
+				<url-pattern>/BookInwardDetailServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>ChangePasswordServlet</servlet-name>
+				<servlet-class>com.Admin.ChangePasswordServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>ChangePasswordServlet</servlet-name>
+				<url-pattern>/ChangePasswordServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>LogoutServlet</servlet-name>
+				<servlet-class>com.Admin.LogoutServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>LogoutServlet</servlet-name>
+				<url-pattern>/LogoutServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<!-- Member related Servlets -->
+		
+		
+		<servlet>
+				<servlet-name>CreditCardMemServlet</servlet-name>
+				<servlet-class>com.Member.CreditCardMemServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>CreditCardMemServlet</servlet-name>
+				<url-pattern>/CreditCardMemServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>WelcomePageSearchBookServlet</servlet-name>
+				<servlet-class>com.Member.WelcomePageSearchBookServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>WelcomePageSearchBookServlet</servlet-name>
+				<url-pattern>/WelcomePageSearchBookServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		
+		
+		<servlet>
+				<servlet-name>IndvMemSignupServlet</servlet-name>
+				<servlet-class>com.Member.IndvMemSignupServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>IndvMemSignupServlet</servlet-name>
+				<url-pattern>/IndvMemSignupServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>IndvMemberLoginServlet</servlet-name>
+				<servlet-class>com.Member.IndvMemberLoginServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>IndvMemberLoginServlet</servlet-name>
+				<url-pattern>/IndvMemberLoginServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>EditIndvMemServlet</servlet-name>
+				<servlet-class>com.Member.EditIndvMemServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>EditIndvMemServlet</servlet-name>
+				<url-pattern>/EditIndvMemServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>MemSearchBookServlet</servlet-name>
+				<servlet-class>com.Member.MemSearchBookServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>MemSearchBookServlet</servlet-name>
+				<url-pattern>/MemSearchBookServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>MemRequestBookServlet</servlet-name>
+				<servlet-class>com.Member.MemRequestBookServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>MemRequestBookServlet</servlet-name>
+				<url-pattern>/MemRequestBookServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>AddToCartServlet</servlet-name>
+				<servlet-class>com.Member.AddToCartServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>AddToCartServlet</servlet-name>
+				<url-pattern>/AddToCartServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>DeleteFromCartServlet</servlet-name>
+				<servlet-class>com.Member.DeleteFromCartServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>DeleteFromCartServlet</servlet-name>
+				<url-pattern>/DeleteFromCartServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>GenerateBillservlet</servlet-name>
+				<servlet-class>com.Member.GenerateBillservlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>GenerateBillservlet</servlet-name>
+				<url-pattern>/GenerateBillservlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>MemChangePasswordServlet</servlet-name>
+				<servlet-class>com.Member.MemChangePasswordServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>MemChangePasswordServlet</servlet-name>
+				<url-pattern>/MemChangePasswordServlet</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+				<servlet-name>MemberLogoutServlet</servlet-name>
+				<servlet-class>com.Member.MemberLogoutServlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>MemberLogoutServlet</servlet-name>
+				<url-pattern>/MemberLogoutServlet</url-pattern>
+		</servlet-mapping>
+		<servlet>
+				<servlet-name>NetAmountCal</servlet-name>
+				<servlet-class>com.Member.NetAmountCal</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+				<servlet-name>NetAmountCal</servlet-name>
+				<url-pattern>/NetAmountCal</url-pattern>
+		</servlet-mapping>
+
+</web-app>
